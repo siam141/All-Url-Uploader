@@ -1,4 +1,3 @@
-# MIT License
 
 # Copyright (c) 2022 Hash Minner
 
@@ -30,18 +29,18 @@ load_dotenv()
 class Config(object):
 
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "xxxxadd")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7881581733:AAGxDnk7Uzn7J0d9_WUmGg1Ah8bMz6xYx9A")
     # bot username without @
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "xxxxadd")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "MirrorLeach2Bot")
 
     # Get these values from my.telegram.org
-    API_ID = os.environ.get("API_ID", "123add")
-    API_HASH = os.environ.get("API_HASH", "xxxxadd")
+    API_ID = os.environ.get("API_ID", "27752560")
+    API_HASH = os.environ.get("API_HASH", "67d3ec64db8031189962b5d4804884c0")
 
     # TG Ids
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "123add")
-    OWNER_ID = os.environ.get("OWNER_ID", "123add")
-    AUTH_USERS = [OWNER_ID] + os.environ.get("AUTH_USERS", "").split(" ")
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002589776901")
+    OWNER_ID = os.environ.get("OWNER_ID", "7862181538")
+    AUTH_USERS = [OWNER_ID] + os.environ.get("AUTH_USERS", "7862181538").split(" ")
 
     # No need to change
     ADL_BOT_RQ = {}
